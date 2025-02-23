@@ -181,7 +181,7 @@ Certifique-se de que as permissões da chave privada estão configuradas correta
 ```bash
 chmod 600 ~/.ssh/minha_chave_ed25519
 ```
-
----
-
-
+## Outra alternativa é clonar o repositorio sem criar o arquivo config usando esse comando 
+```sh
+GIT_SSH_COMMAND='ssh -i ~/.ssh/"sua-chave privada' git clone {link ssh do repósitorio} 
+```
